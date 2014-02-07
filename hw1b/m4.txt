@@ -1,0 +1,965 @@
+0 -1 str0 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+1 0 str1 Lets get started by introducing ourselves. I am Alex.
+2 1 str2 i am {s001}
+3 2 str3 Hi {s001} you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+4 3 str4 {s005} you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+5 4 str5 Its nice to meet you all. :) Please make sure you have understood what you are responsible for by looking over pages 7-9 in your book and remembering what role you have been assigned.
+6 5 str6 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+7 6 str7 Nice to meet u 2.
+8 7 str8 Please discuss what you predict will happen in these two conditions.
+9 8 str9 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+10 9 str10 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+11 10 str11 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+12 11 str12 You are now going to watch a video showing the cell in Conditions A, B and C.
+13 12 str13 As you watch the video, write down your observations on your worksheet.
+14 13 str14 Go to the Videos folder on the Desktop, and watch the video which is there.
+15 14 str15 I predict that in Condition A the cell model would gain more water and Codition b would loose the water in the cell model
+16 15 str16 Is everyone back?
+17 16 str17 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+18 17 str18 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+19 18 str19 Ok, I gotta go.
+20 19 str20 It was nice talking to you all. :-)
+21 20 str21 Nice talking to you two<
+22 21 str22 why isnt this working?
+23 22 str23 this thing is slow
+24 23 str24 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+25 24 str25 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+26 25 str26 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+27 26 str27 water will be able to get in but the starch wont be able to move out so the tube will expand
+28 27 str28 thats for C
+29 28 str29 what one are you talking about
+30 29 str30 i see you
+31 30 str31 C on the chart
+32 31 str32 i see you too
+33 32 str33 You are now going to watch a video showing the cell in Conditions A, B and C.
+34 33 str34 As you watch the video, write down your observations on your worksheet.
+35 34 str35 Go to the Videos folder on the Desktop, and watch the video which is there.
+36 35 str36 If glucose is placed in the beaker the water in the tube will disapear
+37 36 str37 what was the explaination for C and A
+38 37 str38 never mind
+39 38 str39 Are you guys back?
+40 39 str40 is anyone else seriously confused
+41 40 str41 {s006}, did you get any other observation other than the weight
+42 41 str42 no i didnt write anything down for the observations
+43 42 str43 Ok, I gotta go.
+44 43 str44 It was nice talking to you all. :-)
+45 44 str45 um bye?
+46 45 str46 for 1 hour on a it was .620 they were both clear tube and beaker and both strips were green
+47 46 str47 same for the B but the weight was .540
+48 -1 str48 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+49 48 str49 Lets get started by introducing ourselves. I am Alex.
+50 49 str50 hello this is christian
+51 50 str51 s003,s007,s011... i didn't get your names yet.
+52 51 str52 I'm {s011}
+53 52 str53 Hi {s003} you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+54 53 str54 s007, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+55 54 str55 Ok... So the Explainer is s011. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+56 55 str56 You should probably all mark an X opposite your role in the book, so you won't forget.
+57 56 str57 who r u guys
+58 57 str58 Its nice to meet you all. :) Please make sure you have understood what you are responsible for by looking over pages 7-9 in your book and remembering what role you have been assigned.
+59 58 str59 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+60 59 str60 Please discuss what you predict will happen in these two conditions.
+61 60 str61 when we put in the glucose the cell will get smaller
+62 61 str62 s011, can you ask {s003} to build on what S007 is saying.
+63 62 str63 {s003} can you build on to what s007 said.
+64 63 str64 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+65 64 str65 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+66 65 str66 the cell will blacken when it comes in touch with the iodine
+67 66 str67 s011 can you ask {s003} to build on what s007 is saying.
+68 67 str68 i cannot build on
+69 68 str69 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+70 69 str70 so for glucose we are putting the cell gets smaller? why?
+71 70 str71 You are now going to watch a video showing the cell in Conditions A, B and C.
+72 71 str72 As you watch the video, write down your observations on your worksheet.
+73 72 str73 Go to the Videos folder on the Desktop, and watch the video which is there.
+74 73 str74 is anyone in here
+75 74 str75 I dont understand this.
+76 75 str76 we gotta watch a video
+77 76 str77 who is #11 and #7
+78 77 str78 I'm {s011}, who are you
+79 78 str79 {s003} lol
+80 79 str80 haha whos number 07
+81 80 str81 Is everyone back?
+82 81 str82 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+83 82 str83 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+84 83 str84 Ok, I gotta go.
+85 84 str85 It was nice talking to you all. :-)
+86 85 str86 this is so confusing
+87 86 str87 And stupid
+88 87 str88 For solution B what did we say for prediction and explanation
+89 88 str89 i didnt get anything
+90 89 str90 i said it was gonna lose weight for solution b
+91 90 str91 is alex a real person or a computer
+92 91 str92 Same but i didnt say why. And I dotn know. I think he was a computer thing.
+93 92 str93 it was they just told me
+94 93 str94 yeah he was & idk why
+95 94 str95 Why what?
+96 95 str96 whos this
+97 96 str97 who is this
+98 -1 str98 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+99 98 str99 its {s012} whos this?
+100 99 str100 Lets get started by introducing ourselves. I am Alex.
+101 100 str101 Hi {s004} you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+102 101 str102 {s008} n whois this
+103 102 str103 {s008}, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+104 103 str104 s012... i didn't get your name yet.
+105 104 str105 Ok... So the Explainer is s012. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+106 105 str106 oh r u sittin next to {s009}??
+107 106 str107 You should probably all mark an X opposite your role in the book, so you won't forget.
+108 107 str108 Its nice to meet you all. :) Please make sure you have understood what you are responsible for by looking over pages 7-9 in your book and remembering what role you have been assigned.
+109 108 str109 im {s012}
+110 109 str110 idk who {s012} is
+111 110 str111 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+112 111 str112 and yes
+113 112 str113 Please discuss what you predict will happen in these two conditions.
+114 113 str114 oh ok and hi {s004}
+115 114 str115 stop typinh all fazt
+116 115 str116 its the tutor typein that
+117 116 str117 whos 004?
+118 117 str118 oh ok sup
+119 118 str119 typin wat the yellow stuff is the tutor all the other color stuff is us
+120 119 str120 smartness
+121 120 str121 the glucsoe will expand in side. becasue of the sugar attracts?
+122 121 str122 i concur
+123 122 str123 ? concur
+124 123 str124 idek wat we r doin
+125 124 str125 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+126 125 str126 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+127 126 str127 oh yess i agree
+128 127 str128 with what?
+129 128 str129 i hope you know wat u r doig
+130 129 str130 doing*****
+131 130 str131 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+132 131 str132 You are now going to watch a video showing the cell in Conditions A, B and C.
+133 132 str133 As you watch the video, write down your observations on your worksheet.
+134 133 str134 Go to the Videos folder on the Desktop, and watch the video which is there.
+135 134 str135 mk {s008/Alex}<3
+136 135 str136 alrighty then
+137 136 str137 do you like spongebob
+138 137 str138 i LOVE spongebob
+139 138 str139 o yes.jk
+140 139 str140 ok so what are we putting for A?
+141 140 str141 yess i love spongebob<3
+142 141 str142 can we get off the subject of spongebob?
+143 142 str143 no i prefer not
+144 143 str144 um tyhay it loses weight
+145 144 str145 ok so what u put for A?
+146 145 str146 it loses weight
+147 146 str147 right?
+148 147 str148 yeah i agreee
+149 148 str149 i said it will gain weight #2 will lose weight and #3 stays the same
+150 149 str150 it will lose weight because water has no glucose in it and the glucose will let out sugar
+151 150 str151 #2 it will gain weight
+152 151 str152 watever
+153 152 str153 Are you guys back?
+154 153 str154 nope wer watching iyt
+155 154 str155 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+156 155 str156 does ne one know wat they r doing
+157 156 str157 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+158 157 str158 Ok, I gotta go.
+159 158 str159 It was nice talking to you all. :-)
+160 159 str160 ok this video made no sense at all soes any one know what they are doing
+161 160 str161 maybeee
+162 161 str162 well then tell me
+163 162 str163 well then tell me
+164 163 str164 well A is retarded
+165 164 str165 it gained twice then lost weight
+166 165 str166 well i only got the 1 hour thing nd the 5 hour one i dint watch the rest of the video
+167 166 str167 {s004} are u still on
+168 167 str168 she got shot
+169 168 str169 ok tht is good i love how u just say tht randomly
+170 169 str170 alright we r cheatin on this quiz wats the answers
+171 -1 str171 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+172 171 str172 Lets get started by introducing ourselves. I am Alex.
+173 172 str173 s020,s022,s021... i didn't get your names yet.
+174 173 str174 Hi s020 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+175 174 str175 s022, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+176 175 str176 Ok... So the Explainer is s021. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+177 176 str177 You should probably all mark an X opposite your role in the book, so you won't forget.
+178 177 str178 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+179 178 str179 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+180 179 str180 Please discuss what you predict will happen in these two conditions.
+181 180 str181 my name is {s020}
+182 181 str182 hi im {s022}
+183 182 str183 i dont get this
+184 183 str184 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+185 184 str185 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+186 185 str186 i think that it will let water in but not glucose
+187 186 str187 s020, do you agree with what s021 is saying?
+188 187 str188 i think that the liquid inside will come out
+189 188 str189 s022, do you agree with what s020 is saying?
+190 189 str190 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+191 190 str191 i disagree with {s020} because i really dont understand what she just said
+192 191 str192 You are now going to watch a video showing the cell in Conditions A, B and C.
+193 192 str193 As you watch the video, write down your observations on your worksheet.
+194 193 str194 Go to the Videos folder on the Desktop, and watch the video which is there.
+195 194 str195 i think that the glucose and distilled water will mix
+196 195 str196 what does that mean s022
+197 196 str197 {s021} why do you think that the glucose will stay inside
+198 197 str198 what does what mean?
+199 198 str199 Back from watching the video?
+200 199 str200 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+201 200 str201 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+202 201 str202 Ok, I gotta go.
+203 202 str203 It was nice talking to you all. :-)
+204 203 str204 hi every1
+205 -1 str205 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+206 205 str206 Lets get started by introducing ourselves. I am Alex.
+207 206 str207 s034,s041,s027... i didn't get your names yet.
+208 207 str208 my name is {s034}
+209 208 str209 Hi S034 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+210 209 str210 S041, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+211 210 str211 Ok... So the Explainer is S027. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+212 211 str212 You should probably all mark an X opposite your role in the book, so you won't forget.
+213 212 str213 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+214 213 str214 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+215 214 str215 Please discuss what you predict will happen in these two conditions.
+216 215 str216 who is 27
+217 216 str217 {s027}
+218 217 str218 what do you think'ds going to happen?
+219 218 str219 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+220 219 str220 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+221 220 str221 the world is going to end in 2012
+222 221 str222 S027, now would be a good time to ask S034 to build on what S041 is saying.
+223 222 str223 im so confused!
+224 223 str224 034, would you like to build on to what 041 is saying? and me too!
+225 224 str225 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+226 225 str226 You are now going to watch a video showing the cell in Conditions A, B and C.
+227 226 str227 ooh. hi
+228 227 str228 As you watch the video, write down your observations on your worksheet.
+229 228 str229 Go to the Videos folder on the Desktop, and watch the video which is there.
+230 229 str230 idk what to do.
+231 230 str231 someone predict something
+232 231 str232 THE WORLD IS GOING TO END IN 2012 !
+233 232 str233 oh i get it! what do you think is going to happen when you put the glucose in the distilled water?
+234 233 str234 i think it will turn a different color.
+235 234 str235 {s041}?
+236 235 str236 ok dude what 27 said
+237 236 str237 in your own words
+238 237 str238 you have to be more specific 27
+239 238 str239 ur one to talk!!!
+240 239 str240 the answer to number one : the distilled water will move into the internal envorment of glucose solution
+241 240 str241 and the explaination is glucose is denser
+242 241 str242 just write what she[{s034}] said.
+243 242 str243 for the explination
+244 243 str244 #2 the distilled water will move into the external enviroment
+245 244 str245 watch the video
+246 245 str246 Is everyone back?
+247 246 str247 we have to do all the prediction , thats what NACHO said
+248 247 str248 ok, but where do i click to watch it?
+249 248 str249 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+250 249 str250 nevermind i found it.
+251 250 str251 #3 the water will move into the starch because starch absorbs it
+252 251 str252 S027, now would be a good time to ask S041 to build on what S034 is saying.
+253 252 str253 {s034} are these #'s all of the predictions or explanations?
+254 253 str254 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+255 254 str255 #3, is that the prediction?
+256 255 str256 Lets spend the rest of the time we have discussing your observations from all the three conditions.
+257 256 str257 Discuss explanations of what you observed in each condition and make sure you fill in your explanations on your worksheets.
+258 257 str258 what is explanation for #2
+259 258 str259 its both, the first part is the prediction the second part is the explanation
+260 259 str260 @S027, can you ask S041 to build on what S034 is saying.
+261 260 str261 i want to shoot myself in the foot -.-
+262 261 str262 this is so stupid.
+263 262 str263 this would be so much easier just in a group
+264 263 str264 yep yep
+265 264 str265 @S027, can you ask S041 to build on what S034 is saying.
+266 265 str266 you dont have the balls to do it
+267 266 str267 do what?
+268 267 str268 Ok, I gotta go.
+269 268 str269 It was nice talking to you all. :-)
+270 269 str270 our tutor left us!!!
+271 270 str271 she is a baad tutor!!!
+272 271 str272 im pretty sure its a he
+273 272 str273 really? haah! oh well. idc. he/she/it
+274 273 str274 i ddnt even watch the whole video
+275 274 str275 i watched most of it
+276 275 str276 do you know what happened?
+277 276 str277 i just wrote the observations
+278 277 str278 oh. what was it after 1 hour for condition A?
+279 278 str279 {s041}, did you get everything so far?
+280 279 str280 condition a: 620 glucose inside; 635 glucose inside; 630 glucose inside; explanation: the membrane will hold stuff for a certain amount of time
+281 280 str281 condition b: 540 glucose outside; 525 glucose outside; 525 glucose outside; explanation: the glucose was not being absorbed by the water
+282 281 str282 i think .
+283 282 str283 k, i'll fast forward and try to find the last one, when im done writing the condition b.
+284 283 str284 you mean i know !
+285 284 str285 yea, sure i do, whatever. hahahahahha
+286 285 str286 lol what is C
+287 286 str287 i dont even think there was one
+288 287 str288 i sd i'd try to find it if i could.
+289 288 str289 there is & ok
+290 289 str290 aaah there is a quiz!!!!!!!!!!!!!
+291 290 str291 im gonna fail!!!!!!!!!!!!!!
+292 291 str292 stfu !
+293 292 str293 HAPPY BIRTHDAAAY {s041} :D :D :D :D :D :D :D :D :D
+294 293 str294 lol thsnks
+295 294 str295 is it ur birthday?
+296 295 str296 bye bye guys.
+297 -1 str297 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+298 297 str298 Lets get started by introducing ourselves. I am Alex.
+299 298 str299 s035,s042,s028... i didn't get your names yet.
+300 299 str300 Hi S035 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+301 300 str301 S042, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+302 301 str302 Ok... So the Explainer is S028. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+303 302 str303 You should probably all mark an X opposite your role in the book, so you won't forget.
+304 303 str304 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+305 304 str305 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+306 305 str306 Please discuss what you predict will happen in these two conditions.
+307 306 str307 hi, my name is {s035}
+308 307 str308 W ho's 35?
+309 308 str309 O h this is {s042}
+310 309 str310 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+311 310 str311 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+312 311 str312 Yeah. I think that water will try to even out with glucose for the first one
+313 312 str313 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+314 313 str314 You are now going to watch a video showing the cell in Conditions A, B and C.
+315 314 str315 ook....so we got the parts.. who else is in the group...and i have no clue what we are doing.... do we just talk about what we think is going to happen to the egg
+316 315 str316 As you watch the video, write down your observations on your worksheet.
+317 316 str317 Go to the Videos folder on the Desktop, and watch the video which is there.
+318 317 str318 oo hey im {s035}!!
+319 318 str319 ook group what do we pedict
+320 319 str320 I think that the water will seperate and travel to glucose. Because water has a lot of molecules and glucose is just sugar. So it would then balance out. What do you think?
+321 320 str321 ook this is what i think...if we put the cell model in the water it will grow like the egg did....but if its in teh sugar it will shrink
+322 321 str322 Oh I get it. But wouldn't it still expand and try to balance out?
+323 322 str323 i am so confused
+324 323 str324 im with {s028} on this one....
+325 324 str325 It's like Osmosis I think. If it's water mixed in with sugar like liquid or another solvent it will try to balance out. Like salt. Does that help?
+326 325 str326 thankyou! i have nothing written on my paper, i'm a bit stupid
+327 326 str327 Back from watching the video?
+328 327 str328 no alex, we arent! jeeze!
+329 328 str329 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+330 329 str330 alright, i am still on A, for the first box thing
+331 330 str331 haha its cool and {s042} that is a good idea.... i think we mite have to watch the movie
+332 331 str332 what do you guys think?
+333 332 str333 we need to watch the movie maybe??
+334 333 str334 yeah, i think we should
+335 334 str335 I think that it might balance out and that {s035}'s right with the shrinking of the water.
+336 335 str336 Yeah we should
+337 336 str337 ook were do we go lol
+338 337 str338 down at the bottom of the screen
+339 338 str339 thnx found it
+340 339 str340 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+341 340 str341 So far it's like consuing and growing
+342 341 str342 Lets spend the rest of the time we have discussing your observations from all the three conditions.
+343 342 str343 Discuss explanations of what you observed in each condition and make sure you fill in your explanations on your worksheets.
+344 343 str344 i think that for C, the predicted change would be that the water will move into the starch
+345 344 str345 The glucose weighed it down and then disperssed
+346 345 str346 I agree with s028
+347 346 str347 Ok, I gotta go.
+348 347 str348 It was nice talking to you all. :-)
+349 348 str349 wooo now all i need is B! and the entire second box haha
+350 349 str350 i still hav eno clue what to write in all the boxes :(
+351 350 str351 Okay, I think that when the distilled water is put into the glucose the glucose will get lighter and then well I don't know what then.....
+352 351 str352 wouldnt for B, the water will once again shrink because its mixing water with glucose again?
+353 352 str353 oh ok, or your prediction haha
+354 353 str354 Oh I think it would, but it might expand at first then shrink
+355 354 str355 that makes sense
+356 355 str356 wouldnt the explanation for C be that starch absorbs water, and thats why the water will move into it?
+357 356 str357 the explanation I think would be that since when h20 is put into another solvent it expands its molecules and then maybe it would shrink from the glucose
+358 357 str358 Yeah thats what shoud happen for the starch box
+359 358 str359 i think we ahuld all write what we think an dthen talk about it
+360 359 str360 mkkk. now all we need is the explanation for box A
+361 360 str361 Box A I think would be that there's a lot of water and glucose is sugar so it would shrink and like balance
+362 361 str362 are we on the first set of boxes of the seconf??
+363 362 str363 ok, now we have to watch that stupid video, but didnt he tell us to X out of it?
+364 363 str364 I'm restarting the video the 2nd box is confusing....
+365 364 str365 mk me too
+366 365 str366 ok thnx...for the second st of boxes for the observations change i put all the weights i saw in the movie
+367 366 str367 we didnt even take the quiz yet, and i failed hahhaha
+368 367 str368 oo great a quiz
+369 368 str369 I don't want a quiz
+370 369 str370 I think the glocos will get heavier
+371 370 str371 bye guys!
+372 371 str372 bye bye
+373 -1 str373 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+374 373 str374 Lets get started by introducing ourselves. I am Alex.
+375 374 str375 s029,s036,s043... i didn't get your names yet.
+376 375 str376 Hi S029 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+377 376 str377 S036, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+378 377 str378 Ok... So the Explainer is S043. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+379 378 str379 You should probably all mark an X opposite your role in the book, so you won't forget.
+380 379 str380 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+381 380 str381 this is {s036} :)
+382 381 str382 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+383 382 str383 Please discuss what you predict will happen in these two conditions.
+384 383 str384 HELLO!? who is there
+385 384 str385 HELLO?
+386 385 str386 who is my partner
+387 386 str387 your mom... {s036} :)
+388 387 str388 who is so29
+389 388 str389 {s029[pet name form]}
+390 389 str390 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+391 390 str391 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+392 391 str392 what do we discuss
+393 392 str393 who are you?^
+394 393 str394 who is dis wats a {s029[pet name form]}
+395 394 str395 dis is {s043}
+396 395 str396 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+397 396 str397 who is 29
+398 397 str398 You are now going to watch a video showing the cell in Conditions A, B and C.
+399 398 str399 As you watch the video, write down your observations on your worksheet.
+400 399 str400 Go to the Videos folder on the Desktop, and watch the video which is there.
+401 400 str401 {s043} wat are we doing?
+402 401 str402 {s029}!
+403 402 str403 BOYFRIEND! :)
+404 403 str404 haha hey boyfriend!
+405 404 str405 WHAT ARE WE SUPPOSED TO WRITE
+406 405 str406 ok wat r we doin?
+407 406 str407 i think the water will travel into the tube with the gluecose because of osmosis
+408 407 str408 for A?
+409 408 str409 a? i thought it was #1?
+410 409 str410 water will mix with the gluecose to try and balance out the water molecules
+411 410 str411 yes for a
+412 411 str412 for predicted change?
+413 412 str413 wouldn't that be the same for B?
+414 413 str414 i need help! ;(
+415 414 str415 i think the water will be obsorbed
+416 415 str416 for part b
+417 416 str417 i think the glucose will dissolve
+418 417 str418 there is more gluecose than water outside than inside so the water will come out
+419 418 str419 Is everyone back?
+420 419 str420 ok can someone help me please!
+421 420 str421 how do you know there's more glucose than water outside than inside?
+422 421 str422 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+423 422 str423 becasue the tube of water is siting inside the container of gluecose
+424 423 str424 S036, can you put what S043 said in your own words?
+425 424 str425 wait what're we writing for the explanation for each prediction? so far i just have "water will mix with glucose to try to balance out the water molecules" for the predicted change for A
+426 425 str426 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+427 426 str427 Lets spend the rest of the time we have discussing your observations from all the three conditions.
+428 427 str428 Discuss explanations of what you observed in each condition and make sure you fill in your explanations on your worksheets.
+429 428 str429 for A what did we get for the explanation for prediction.. since i need alot of help!
+430 429 str430 wait {s029} did you watch the video already?
+431 430 str431 yea dats right for b i jus said the water will b obsorbed because there is more gluecose and the water will travel from a low water level to attempt to go to a higher source of water
+432 431 str432 S036, can you put what S043 said in your own words?
+433 432 str433 Ok, I gotta go.
+434 433 str434 It was nice talking to you all. :-)
+435 434 str435 is everybody redy for the video?????
+436 435 str436 no no no ! i need the A & C prediction.....
+437 436 str437 a-the water will go into the tube because of osmosis
+438 437 str438 c-the water will go into the starch
+439 438 str439 okayy thankyouu :) now we watch the video?
+440 439 str440 what's the predicted change for B?
+441 440 str441 noooo!!! i need B and the Explanation for Prediction of each one
+442 441 str442 b-i think the water will be obsorbed
+443 442 str443 b- water will obsorbed bc there is more gluecose/ the water travel low water level to a higher source? ritght?
+444 443 str444 wait, would osmosis be the explanation for A?
+445 444 str445 yeah the A "the water will go into the tube bc of osmois"
+446 445 str446 idk this is wat she was sayn
+447 446 str447 so we're writing "Osmosis" in the box for Explanation?!
+448 447 str448 but she is watching the video we are soo lost :(
+449 448 str449 hahahh oh dear
+450 449 str450 i put for A the explantation prediction of what i said about A lol!
+451 450 str451 i only watched a couple seconds of the video so far
+452 451 str452 WHERE IS THE VIDEO!?
+453 452 str453 at the bottom, next to start it says "combined video"
+454 453 str454 i hate psp :'( idk wats goin on
+455 454 str455 for the explantion for C i put "stach absorbs liquid and water is a liquid"
+456 455 str456 yea i put like the same thing " water will go into the strarch"
+457 456 str457 well im going to watch the video lol
+458 457 str458 me too!
+459 -1 str459 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+460 459 str460 Lets get started by introducing ourselves. I am Alex.
+461 460 str461 s044,s030,s037... i didn't get your names yet.
+462 461 str462 Hi S044 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+463 462 str463 S030, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+464 463 str464 Ok... So the Explainer is S037. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+465 464 str465 You should probably all mark an X opposite your role in the book, so you won't forget.
+466 465 str466 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+467 466 str467 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+468 467 str468 Please discuss what you predict will happen in these two conditions.
+469 468 str469 this is {s037}
+470 469 str470 ur mom
+471 470 str471 hi {s036[sic]}
+472 471 str472 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+473 472 str473 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+474 473 str474 im watching you
+475 474 str475 haha..were gona fail
+476 475 str476 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+477 476 str477 You are now going to watch a video showing the cell in Conditions A, B and C.
+478 477 str478 As you watch the video, write down your observations on your worksheet.
+479 478 str479 Go to the Videos folder on the Desktop, and watch the video which is there.
+480 479 str480 what do we do
+481 480 str481 write your preditions
+482 481 str482 Say "Yes" to let me know you are back from watching the video.
+483 482 str483 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+484 483 str484 did you guys get it
+485 484 str485 i got it
+486 485 str486 wat did u observe for 5hrs condition c
+487 486 str487 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+488 487 str488 Ok, I gotta go.
+489 488 str489 It was nice talking to you all. :-)
+490 489 str490 i love you
+491 490 str491 i hate {s036}
+492 491 str492 condition gained waight'
+493 492 str493 lost waight'
+494 493 str494 c gained weight for hr and 5 hrs then lost weight at day
+495 494 str495 i didnt watch c
+496 495 str496 tell {so36} shes a hoe
+497 496 str497 she said your momma mj!
+498 497 str498 how much does (c) weigh on th first hr
+499 498 str499 and the 5th hr
+500 499 str500 and after day one
+501 500 str501 6.55 for both
+502 501 str502 .655 srry
+503 502 str503 thats wat she said
+504 503 str504 wow..lol
+505 504 str505 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+506 505 str506 Lets get started by introducing ourselves. I am Alex.
+507 506 str507 s045,s031,s038... i didn't get your names yet.
+508 507 str508 Hi S045 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+509 508 str509 S031, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+510 509 str510 hi my name is {s038}
+511 510 str511 Ok... So the Explainer is S038. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+512 511 str512 You should probably all mark an X opposite your role in the book, so you won't forget.
+513 512 str513 hi my name is {s031}
+514 513 str514 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+515 514 str515 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+516 515 str516 Please discuss what you predict will happen in these two conditions.
+517 516 str517 what do you think will hlappen?
+518 517 str518 i think that a and b will turn out the same.
+519 518 str519 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+520 519 str520 i think in condition A water will go inside the cell and b will be the oppisite
+521 520 str521 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+522 521 str522 what do you think will happpen?
+523 522 str523 ok..sound about right
+524 523 str524 what wil happen to condition c./
+525 524 str525 i have no idea either
+526 525 str526 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+527 526 str527 alrighhttm
+528 527 str528 You are now going to watch a video showing the cell in Conditions A, B and C.
+529 528 str529 As you watch the video, write down your observations on your worksheet.
+530 529 str530 Go to the Videos folder on the Desktop, and watch the video which is there.
+531 530 str531 what the explanatiion for what you guys said?
+532 531 str532 what do you mean ?
+533 532 str533 great help..
+534 533 str534 it says whats the explanation for your prediction
+535 534 str535 for A i said that water would go inside since gloucuse dissolves in waterr and the membrane would gain weight
+536 535 str536 im not sure though
+537 536 str537 that sounds gooood.
+538 537 str538 ok..what did you put for condition B
+539 538 str539 LETS WATCH THE VIDEO IN THE OTHER TAB..
+540 539 str540 COUGH COUGH at the bottomof the page
+541 540 str541 hahhaha
+542 541 str542 waht did you put for conditon c?
+543 542 str543 Are you guys back?
+544 543 str544 the thing {s031} said?\
+545 544 str545 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+546 545 str546 i think for c that it would turn purple since the starch would mix with the idione or is it the other way around
+547 546 str547 i was thinking the same thing
+548 547 str548 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+549 548 str549 i dont know what this video is doing i cant hear anything and its confusing me
+550 549 str550 same here..i cant see the weighto=or anythign
+551 550 str551 Ok, I gotta go.
+552 551 str552 It was nice talking to you all. :-)
+553 552 str553 exactly,
+554 553 str554 i dont know how to do any of thiss.
+555 554 str555 i got the weight but i can barely see the strips
+556 555 str556 for a and b the strips are dark green
+557 556 str557 yeaah, i got alll confused and dont know is for which
+558 557 str558 whats the weight
+559 558 str559 condtion A
+560 559 str560 wasnt one like .60
+561 560 str561 after 1 hr?
+562 561 str562 and then after 5 hours it was .635
+563 562 str563 and after 1 day it was .630
+564 563 str564 for b it was .540 for 1 hour
+565 564 str565 .525 for 5 hours
+566 565 str566 what was the weight for conditon b?
+567 566 str567 and then .525 again for a day
+568 567 str568 thankk youu
+569 568 str569 ok..whaty about for conditon c?
+570 569 str570 i didnt get there yet in the videeooo
+571 570 str571 neither did i...what did you put for your observations for a and b
+572 571 str572 for c after i hour it was black on the tube and the water outside look kinda yellow and it was .655
+573 572 str573 after 5 hours?
+574 573 str574 after 5 hours it was .655 and the water still looked yellow
+575 574 str575 and then after 24 hours it was .635
+576 575 str576 ok and for one day?
+577 576 str577 and the water looked lighter than for before
+578 577 str578 okkaaaaayyyy. do you guys know why this stuff happpned
+579 578 str579 for a....it gained weight because th glucose was obsorbed
+580 579 str580 okay and then would it be the oppistie for b
+581 580 str581 umm...im not so sure
+582 581 str582 iit lost weighht
+583 582 str583 nevermind....yeah it would
+584 583 str584 what about for c?
+585 584 str585 soooo it lost water from inside?
+586 585 str586 yeah..weight was lost because the glucose didnt absord all the way
+587 586 str587 what would we put for c
+588 587 str588 and the last one lost weight
+589 588 str589 idk this quiz :(
+590 589 str590 mmee either
+591 -1 str591 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+592 591 str592 Lets get started by introducing ourselves. I am Alex.
+593 592 str593 hi alex
+594 593 str594 hi 32 and 46
+595 594 str595 s032,s046,s039... i didn't get your names yet.
+596 595 str596 im {s039}
+597 596 str597 Hi S032 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+598 597 str598 S046, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+599 598 str599 Ok... So the Explainer is S039. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+600 599 str600 You should probably all mark an X opposite your role in the book, so you won't forget.
+601 600 str601 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+602 601 str602 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+603 602 str603 Please discuss what you predict will happen in these two conditions.
+604 603 str604 hi i am {s039}
+605 604 str605 hi im {s046}
+606 605 str606 hi {s046}
+607 606 str607 hey {s053}
+608 607 str608 hey {s053} from {s032}
+609 608 str609 32 is {s032}
+610 609 str610 39 is {s039}
+611 610 str611 hi {s039}
+612 611 str612 so u know
+613 612 str613 hi {s032}
+614 613 str614 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+615 614 str615 so what do you think about the first one {s039}
+616 615 str616 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+617 616 str617 i dont know i feel stupid do you know {s046}?
+618 617 str618 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+619 618 str619 i think water wil be taken out of the cell because the glucose will harvest the water
+620 619 str620 S039, do you agree with what S032 is saying?
+621 620 str621 You are now going to watch a video showing the cell in Conditions A, B and C.
+622 621 str622 As you watch the video, write down your observations on your worksheet.
+623 622 str623 Go to the Videos folder on the Desktop, and watch the video which is there.
+624 623 str624 i was going to ask but ok thats sounds right
+625 624 str625 yea alex
+626 625 str626 who's in my group?
+627 626 str627 hahahahha {s046}
+628 627 str628 {s046} is mean from {s039}
+629 628 str629 your beat
+630 629 str630 no she is super beat
+631 630 str631 exactly
+632 631 str632 okay so what are we doing?
+633 632 str633 for solution a i think water will be added to the cell
+634 633 str634 my explanation is that the glucose will absorb the water causing the cell to expand
+635 634 str635 i think the exact opposite
+636 635 str636 lets go to the video
+637 636 str637 to my knowledge glucose attractes water but when inside an ienvoronment itll push out water but i could be wrong
+638 637 str638 so i like what you siad
+639 638 str639 Are you guys back?
+640 639 str640 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+641 640 str641 alrite what do you think about condition B?
+642 641 str642 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+643 642 str643 i didnt watch it yet
+644 643 str644 i think the cell would lose weigtt to because the glucose will extract the water out of the cell
+645 644 str645 S039, why dont you do explain the reasons behind what S032 is saying.
+646 645 str646 Ok, I gotta go.
+647 646 str647 so it turns out i was right according to the video the cell in (a) gained wight and the one in (b) loses wight
+648 647 str648 It was nice talking to you all. :-)
+649 648 str649 byeee(:
+650 649 str650 yea thats what i was thinking {s032}
+651 650 str651 i need helpp
+652 651 str652 i saw the video condition b will take water out
+653 652 str653 so my prediction was right from the start
+654 653 str654 condition a is right also.
+655 654 str655 so {s039} what you doing saturday nght
+656 655 str656 i didnt see the video for condition a though
+657 656 str657 hat was weird
+658 657 str658 he says idk hahhahah {s033} says hi
+659 658 str659 never do that again
+660 659 str660 tell i {s033} i say nothing
+661 660 str661 awe thats mean
+662 661 str662 no its not
+663 662 str663 im gonna watch the video to see condition c
+664 663 str664 im gonna watch it too to understand whats going on
+665 664 str665 fun fact from dr {s032} asdfjkl; are all home row keys
+666 665 str666 fun fact from doctor {s032} you can type the word typewriter using only the top row
+667 666 str667 also for "C" the starch will come out slowlyu
+668 667 str668 slowly
+669 668 str669 fun fact lollipop is the longest word you can type using only your left hand
+670 669 str670 my explanation is the water will "absorb" the starch causing the cell to decrease
+671 670 str671 {s032} its ur right hand
+672 671 str672 oh hahahah i meant to say that swear any way
+673 672 str673 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+674 673 str674 Lets get started by introducing ourselves. I am Alex.
+675 674 str675 wattup
+676 675 str676 Hi I am {s040}
+677 676 str677 Hi {s040} you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+678 677 str678 im {s047}
+679 678 str679 s033,s047... i didn't get your names yet.
+680 679 str680 {s047}, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+681 680 str681 Ok... So the Explainer is S033. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+682 681 str682 You should probably all mark an X opposite your role in the book, so you won't forget.
+683 682 str683 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+684 683 str684 33who areu
+685 684 str685 who is 33
+686 685 str686 {s033} is 33 haha
+687 686 str687 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+688 687 str688 who is 40
+689 688 str689 Please discuss what you predict will happen in these two conditions.
+690 689 str690 {s040}
+691 690 str691 {s040}
+692 691 str692 toast nd cereal all day
+693 692 str693 {s047} do you know what to do
+694 693 str694 what {s047}
+695 694 str695 nope i left the room cuz i cut my finger on the chair
+696 695 str696 S033, now would be a good time to ask {s040} to build on what {s047} is saying.
+697 696 str697 {s033}
+698 697 str698 you are supposedtoask mesomething
+699 698 str699 what do u think will happen to the glucose in the distilled water
+700 699 str700 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+701 700 str701 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+702 701 str702 {s047} you have no clue what we are doing
+703 702 str703 do u???
+704 703 str704 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+705 704 str705 You are now going to watch a video showing the cell in Conditions A, B and C.
+706 705 str706 As you watch the video, write down your observations on your worksheet.
+707 706 str707 Go to the Videos folder on the Desktop, and watch the video which is there.
+708 707 str708 i cant find the video toast!!!
+709 708 str709 on the desktop there is a folder videos
+710 709 str710 go there
+711 710 str711 you will findthe video
+712 711 str712 wait what is it called
+713 712 str713 combined video
+714 713 str714 but it wouldnt work before
+715 714 str715 thats y i asked which one it was
+716 715 str716 so what do you guys predict
+717 716 str717 idk my viseo still isnt working
+718 717 str718 Back from watching the video?
+719 718 str719 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+720 719 str720 well tht lady took my paper yinz guys lol
+721 720 str721 why did she take your paper
+722 721 str722 so how are u going to work
+723 722 str723 i watched the video and i have no idea what we ater supposed to do
+724 723 str724 well first we should makesome predictions
+725 724 str725 S033, can you ask {s047} to build on what {s040} is saying.
+726 725 str726 i wrote the wieght and color of the little strips
+727 726 str727 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+728 727 str728 ok well cn sumbody write my name on their papaer bcuz mines is gone
+729 728 str729 {s047} please build on what {s040} is sayin haha
+730 729 str730 shut up cereal
+731 730 str731 ewww ur doggy toast ha ha
+732 731 str732 did you guys writethe observations
+733 732 str733 Ok, I gotta go.
+734 733 str734 i wrote what i could this is so weird
+735 734 str735 It was nice talking to you all. :-)
+736 735 str736 i dnt hav a paper i cnt
+737 736 str737 aaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+738 737 str738 the lady took it a while ago idk y
+739 738 str739 what is the observation for the third one?
+740 739 str740 well if ik wat it was id tell u but. . .no paper lol
+741 740 str741 u dont need a paper look at the video
+742 741 str742 ur killin me toast!
+743 742 str743 ok il look cereal
+744 743 str744 asdfjkl;
+745 744 str745 homerow keys
+746 745 str746 lol ms pfifer tought u tht
+747 746 str747 {s040} help me out here buddy what did u get for the third one
+748 747 str748 the strips turned green the first time
+749 748 str749 happy birthday {s040} form {s049}
+750 749 str750 o wait wat was the third 1
+751 750 str751 ok i am back with all the answers
+752 751 str752 i think
+753 752 str753 happy birthday!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111
+754 753 str754 ok thanks
+755 754 str755 {s033}, what are you talking about
+756 755 str756 on third one predictions, or observations
+757 756 str757 observations
+758 757 str758 after what hour
+759 758 str759 ok .655 grams,color of the tube got darker
+760 759 str760 imma fail tht lil test
+761 760 str761 bye u guys
+762 -1 str762 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+763 762 str763 Lets get started by introducing ourselves. I am Alex.
+764 763 str764 who is this
+765 764 str765 62 is {s062}
+766 765 str766 s056,s059,s062... i didn't get your names yet.
+767 766 str767 who is {s062}
+768 767 str768 Hi S056 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+769 768 str769 S059, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+770 769 str770 it is goin 2 get heavier
+771 770 str771 Ok... So the Explainer is S062. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+772 771 str772 kid in the grey hood
+773 772 str773 You should probably all mark an X opposite your role in the book, so you won't forget.
+774 773 str774 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+775 774 str775 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+776 775 str776 Please discuss what you predict will happen in these two conditions.
+777 776 str777 okay now what do we do?
+778 777 str778 somthing about the egg
+779 778 str779 okay i am about to ask them for more information on this
+780 779 str780 would you stop saying the same thing ovae and over omqq
+781 780 str781 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+782 781 str782 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+783 782 str783 i think were suppose to work on our prediction
+784 783 str784 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+785 784 str785 You are now going to watch a video showing the cell in Conditions A, B and C.
+786 785 str786 As you watch the video, write down your observations on your worksheet.
+787 786 str787 umm a you can say that when you mix them together the colors will change and something may happen..okay
+788 787 str788 Go to the Videos folder on the Desktop, and watch the video which is there.
+789 788 str789 wacth the video
+790 789 str790 okay so do you want to put that down
+791 790 str791 who is this anyway
+792 791 str792 Is everyone back?
+793 792 str793 {s059}...and we can say when you mix them together the color changes and they have different weight
+794 793 str794 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+795 794 str795 glucose will dissolve in the distilled water
+796 795 str796 put in what box
+797 796 str797 predicted change
+798 797 str798 umm or you going to say somthinq back
+799 798 str799 thanks
+800 799 str800 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+801 800 str801 iin thee ontha box ii put when they are put together they will dissolve in the distilled water....okay
+802 801 str802 {s059} guess who this is
+803 802 str803 Ok, I gotta go.
+804 803 str804 It was nice talking to you all. :-)
+805 804 str805 come on
+806 805 str806 for explanation for prediction box it is we cant see glucose once it goes into water
+807 806 str807 who is s062
+808 807 str808 {s062}
+809 808 str809 hey buddy
+810 809 str810 whos 56
+811 810 str811 put iin thee otha box they dunt dissolve in thee water...
+812 811 str812 who iis 56
+813 812 str813 have u heaard about the word
+814 813 str814 who iis 56
+815 814 str815 y u wanna kno
+816 815 str816 bjus yuee are twalkinq tew me
+817 816 str817 i will give u a hint im in ur class
+818 817 str818 i would never guessed
+819 818 str819 yessssssssss southside sabers
+820 -1 str820 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+821 820 str821 Lets get started by introducing ourselves. I am Alex.
+822 821 str822 IM {s060}!!!:)
+823 822 str823 Hi {s060} you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+824 823 str824 s063,s057... i didn't get your names yet.
+825 824 str825 im {s063}
+826 825 str826 {s063}, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+827 826 str827 I think it is going to get heavier
+828 827 str828 Ok... So the Explainer is S057. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+829 828 str829 You should probably all mark an X opposite your role in the book, so you won't forget.
+830 829 str830 WHO IS IN MY GROUPP??
+831 830 str831 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+832 831 str832 {s057} who is in my group
+833 832 str833 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+834 833 str834 Please discuss what you predict will happen in these two conditions.
+835 834 str835 {s063}, do you agree with what S057 is saying?
+836 835 str836 Wait I'm confusedd please explain this again
+837 836 str837 the egg will get bigger
+838 837 str838 heavier
+839 838 str839 i agree with s057
+840 839 str840 {s060}, do you agree with what S057 is saying?
+841 840 str841 i cant understand.
+842 841 str842 wait so it's me,{s063},and {s057}?? why are we talking about eggs?
+843 842 str843 oo ok. i got it
+844 843 str844 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+845 844 str845 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+846 845 str846 this guy is smart
+847 846 str847 he may be smart but I am lost!!!
+848 847 str848 YO ALEX HELP ME OUT HERE!!!
+849 848 str849 Im lost!!!!!!!
+850 849 str850 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+851 850 str851 S057, why dont you do explain the reasons behind what {s060} is saying.
+852 851 str852 You are now going to watch a video showing the cell in Conditions A, B and C.
+853 852 str853 As you watch the video, write down your observations on your worksheet.
+854 853 str854 Go to the Videos folder on the Desktop, and watch the video which is there.
+855 854 str855 {s060} is very confused!
+856 855 str856 Video with no sound
+857 856 str857 Is everyone back?
+858 857 str858 hi alex
+859 858 str859 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+860 859 str860 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+861 860 str861 guess what guys!
+862 861 str862 Ok, I gotta go.
+863 862 str863 I'm confused and annnnddd I have no idea whats going onn!!!
+864 863 str864 It was nice talking to you all. :-)
+865 864 str865 bluecost can go anywere and strach cant go everywere
+866 865 str866 ok bye
+867 866 str867 byee alex!!!
+868 867 str868 love youu!!<3
+869 868 str869 wait who is the yellow person?
+870 869 str870 wht u mean by yellow perosn?
+871 870 str871 like who is the person who has the yellow font!lol
+872 871 str872 well then can you please explain to me what is going onn!
+873 872 str873 idk either!!!!!!
+874 873 str874 aww poop!
+875 874 str875 Hi all! Today, each of you will be both the instructor and the student. Each of you will be responsible for looking for opportunities for a specific discussion strategy to be used in the conversation.
+876 875 str876 Lets get started by introducing ourselves. I am Alex.
+877 876 str877 who is in my group
+878 877 str878 s058,s061,s064... i didn't get your names yet.
+879 878 str879 Hi S058 you are the Revoicer. When an explanation or idea is given which would benefit from revoicing, please encourage one of your team mates to do so, for example, by asking them to explain what was said in their own words.
+880 879 str880 S061, you are the Challenger. When you see a statement being made (whether it is right or wrong) which would benefit from being challenged, please encourage one of your team mates to do so, for example, by asking them whether they agree or disagree with what was said, and why.
+881 880 str881 Ok... So the Explainer is S064. When you see a place where it would be good to get more explanation, you can encourage one of your team mates to do that, for example, by inviting that person to add on to what the other student has already said.
+882 881 str882 You should probably all mark an X opposite your role in the book, so you won't forget.
+883 882 str883 Its nice to meet you all. :) Please make sure you have understood what you are responsible for.
+884 883 str884 In condition A, we placed a glucose solution inside the cell model and immerse it in distilled water. In condition B, we did the opposite.
+885 884 str885 Please discuss what you predict will happen in these two conditions.
+886 885 str886 need help
+887 886 str887 Who is s058
+888 887 str888 the guy over there in the grey hoody
+889 888 str889 S061, can you check if S058 agrees with S064.
+890 889 str890 need help
+891 890 str891 hello do you argee
+892 891 str892 WHO NEEDS HELP?
+893 892 str893 who is s064
+894 893 str894 do you understand
+895 894 str895 In condition C, we made a modification to condition A. We replace the glucose solution with a starch suspension. In order to detect the presence of starch, we replace the distilled water with Lugol's Iodine solution.
+896 895 str896 You should now move on to discussing what will happen in Condition C and your explanation for this change.
+897 896 str897 i am lost to what is going on here im so confused
+898 897 str898 When you are in agreement, write down your predictions and explanations for Conditions A, B and C on your worksheet.
+899 898 str899 same here s064
+900 899 str900 i mean 61
+901 900 str901 You are now going to watch a video showing the cell in Conditions A, B and C.
+902 901 str902 As you watch the video, write down your observations on your worksheet.
+903 902 str903 Go to the Videos folder on the Desktop, and watch the video which is there.
+904 903 str904 descuss what will happen with a b c
+905 904 str905 what about 61
+906 905 str906 iz that all we gonna do
+907 906 str907 idk who is sayin 61
+908 907 str908 who are
+909 908 str909 watch the video
+910 909 str910 who is s058???
+911 910 str911 oh thanks
+912 911 str912 who iz that 64
+913 912 str913 who is s064
+914 913 str914 {s064}
+915 914 str915 who is the revoicer???
+916 915 str916 Are you guys back?
+917 916 str917 yes i am back thanks
+918 917 str918 Now discuss what you observed in the video about conditions A and B. Compare what you observed to your predictions.
+919 918 str919 so wht do u think 0s64
+920 919 str920 who said hi alex?
+921 920 str921 You should now move on to discussing what you observed in the video about condition C. Compare what you observed to your predictions. How is this different from what happened in condition A?
+922 921 str922 Questions S058?
+923 922 str923 in Condition a the glucose was inside and the water was outside
+924 923 str924 Lets spend the rest of the time we have discussing your observations from all the three conditions.
+925 924 str925 Discuss explanations of what you observed in each condition and make sure you fill in your explanations on your worksheets.
+926 925 str926 S064, now would be a good time to ask S061 to build on what S058 is saying.
+927 926 str927 s058 yes
+928 927 str928 who is challenger
+929 928 str929 ya leave people alone
+930 929 str930 who care
+931 930 str931 how rude
+932 931 str932 common guys
+933 932 str933 i did not type yene
+934 933 str934 discuss abt this topic
+935 934 str935 Ok, I gotta go.
+936 935 str936 It was nice talking to you all. :-)
+937 936 str937 yup same to u alex
+938 937 str938 no you guy need to watch the video and than talk about it
+939 938 str939 you guy huh
+940 939 str940 criticize
+941 940 str941 stop critisizeing me and work
+942 941 str942 ok thanks {s064}
+943 942 str943 .and help
+944 943 str944 do u have any questions?
+945 944 str945 yes what is c!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+946 945 str946 For what hour!!!!!!!!!!!!!!!!!!!!!!!!!
+947 946 str947 It loses weight and color sir thank you
+948 947 str948 who is S063
+949 948 str949 numbers please
+950 949 str950 who did those empty lines what's wrong with your brain?
+951 950 str951 english
+952 951 str952 just playing {s064}
+953 952 str953 wats ur obesrvation for Condition B
+954 953 str954 It loses weight colors are different
+955 954 str955 hw abt c
+956 955 str956 who is S058
+957 956 str957 unknown guy
+958 957 str958 58 put your hand up
+959 958 str959 you have a dumb alias
+960 959 str960 i see you
+961 960 str961 who is it {s064}
+962 961 str962 i think its {s056}
+963 962 str963 you are next to {s057}
+964 963 str964 who is {s057}?
