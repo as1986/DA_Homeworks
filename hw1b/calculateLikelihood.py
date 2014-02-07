@@ -2,7 +2,7 @@
 
 
 def getStateTransit(seg):
-    return [x[3] for x in seg]
+    return [int(x[3]) for x in seg]
 
 
 def segment(lines):
