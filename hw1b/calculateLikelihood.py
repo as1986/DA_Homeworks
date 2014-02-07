@@ -5,6 +5,17 @@ def getStateTransit(seg):
     return [int(x[3]) for x in seg]
 
 
+import collections
+wordCounts = [collections.Counter()] * 5
+
+
+def addWordsToClass(listOfWords, classIdx):
+    global wordCounts
+    for word in listOfWords:
+        wordCounts[classIdx][word] += 1
+    return
+
+
 def segment(lines):
     toReturn = []
     currentEpisode = None
