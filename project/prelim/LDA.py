@@ -20,7 +20,9 @@ def main():
     d = gensim.corpora.Dictionary(per_student_dict.itervalues())
     per_student_bow = {k:d.doc2bow(v) for k,v in per_student_dict.iteritems()}
     lda_model = gensim.models.ldamodel.LdaModel(per_student_bow.values(),id2word=d, num_topics=5)
-    lda_model.print_topic(0)
+    print lda_model.print_topic(0)
+    hdp_model = gensim.models.hdpmodel.HdpModel(per_student_bow.values(), id2word=d)
+    print hdp_model
 
     return
 
