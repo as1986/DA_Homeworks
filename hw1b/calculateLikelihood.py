@@ -70,8 +70,8 @@ def main():
     with open(sys.argv[1]) as inputFile:
         inputLines = inputFile.read().split('\n')
         episodes = segment(inputLines)
-        # for x in episodes:
-        #     print getStateTransit(x)
+        for x in episodes:
+            print getStateTransit(x)
     with open(sys.argv[2]) as transitionFile:
         transitions = transitionFile.read().split('\n')
         transProb = getTransProb(transitions)
