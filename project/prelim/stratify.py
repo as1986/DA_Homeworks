@@ -30,7 +30,7 @@ def write_csv_dict(cd, fn):
 def main():
    import csv
    import sys
-   ratio = 10
+   ratio = 20
    with open(sys.argv[1],'rU') as fh:
       reader = csv.reader(fh)
       rows = [x for x in reader]
