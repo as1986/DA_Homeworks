@@ -30,7 +30,7 @@ def write_csv_dict(cd, fn):
 def main():
    import csv
    import sys
-   ratio = 5
+   ratio = 20
    with open(sys.argv[1],'rU') as fh:
       reader = csv.reader(fh)
       rows = [x for x in reader]
@@ -41,7 +41,7 @@ def main():
          to_append = per_student.setdefault(each_post[author_idx],[])
          to_append.append(each_post)
    print len(per_student)
-   (dropped, nondropped, rest_dropped, rest_nondropped) = stratify(per_student, drop_idx, ratio)
+   (dropped, rest_dropped, nondropped, rest_nondropped) = stratify(per_student, drop_idx, ratio)
    write_csv_dict(dropped, 'd.csv')
    write_csv_dict(nondropped, 'nd.csv')
    write_csv_dict(rest_dropped, 'dr.csv')

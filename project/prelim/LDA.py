@@ -19,10 +19,40 @@ def main():
         per_student_dict[s] = all_docs
     d = gensim.corpora.Dictionary(per_student_dict.itervalues())
     per_student_bow = {k:d.doc2bow(v) for k,v in per_student_dict.iteritems()}
-    lda_model = gensim.models.ldamodel.LdaModel(per_student_bow.values(),id2word=d, num_topics=5)
-    print lda_model.print_topic(0)
-    hdp_model = gensim.models.hdpmodel.HdpModel(per_student_bow.values(), id2word=d)
-    print hdp_model
+    lda_model = gensim.models.ldamodel.LdaModel(per_student_bow.values(),id2word=d, num_topics=100)
+    lists = lda_model.show_topics(formatted=False, topn=10000)
+    disclaim = {'no', 'didn\'t', 'never', 'yet', 'amazingly', 'although','but'}
+    proclaim = {'naturally', 'obviously', 'sure', 'fact', 'indeed', 'shows', 'proves', 'demonstrates'}
+    entertain = {'perhaps', 'probable', 'maybe', 'may', 'must', 'seems', 'apparently'}
+    attribute = {'argues', 'believes', 'claims', 'claimed'}
+    sum_pro = []
+    sum_dis = []
+    sum_ent = []
+    sum_att = []
+
+    def get_sum(topic, wordlist):
+       words = [x for x in topic if x[1] in wordlist]
+       return sum([x[0] for x in words])
+
+    for idx, t in enumerate(lists):
+       sum_pro.append((idx, get_sum(t, proclaim)))
+       sum_dis.append((idx, get_sum(t, disclaim)))
+       sum_ent.append((idx, get_sum(t, entertain)))
+       sum_att.append((idx, get_sum(t, attribute)))
+    
+    def max_and_print(sum_list, word_list):
+       import numpy
+       m = max(sum_list, key=lambda x:x[1])
+       print m
+       print [(idx, x) for idx, x in enumerate(lists[m[0]]) if x[1] in word_list]
+       print 'average: {}'.format(sum([x[1] for x in sum_list])/len(sum_list))
+       print 'std dev: {}'.format(numpy.std([x[1] for x in sum_list]))
+       return
+
+    max_and_print(sum_pro, proclaim)
+    max_and_print(sum_dis, disclaim)
+    max_and_print(sum_ent, entertain)
+    max_and_print(sum_att, attribute)
 
     return
 
