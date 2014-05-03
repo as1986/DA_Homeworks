@@ -62,11 +62,12 @@ def main():
 
     row_num_pat = re.compile('_(\d+)\.')
 
-    rows = [[]] * (len(files) + 1)
+    rows = [[]] *853
     rows[0].extend(['', ''])
     for f in files:
         l_name = f[f.rfind('/'):]
         row_num = int(row_num_pat.search(l_name).groups()[0])
+        print '{}/{}'.format(row_num,len(rows))
         rows[row_num].extend(list(sbar_presence[f]))
 
     print rows
