@@ -53,6 +53,8 @@ def main():
     max_and_print(sum_dis, disclaim)
     max_and_print(sum_ent, entertain)
     max_and_print(sum_att, attribute)
+    n  = lda_model[per_student_bow.itervalues().next()]
+    print n
 
     return
 
