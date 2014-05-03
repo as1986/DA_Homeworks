@@ -44,6 +44,33 @@ def extract_verb(s):
     return (found, verbs)
 
 
+def find_best_and_stem(l):
+    from stemming.porter2 import stem
+
+    m = 0
+    max_v = None
+    for each_v in l:
+        if vbs[each_v] > m:
+            m = vbs[each_v]
+            max_v = each_v
+        if vbds[each_v] > m:
+            m = vbds[each_v]
+            max_v = each_v
+        if vbgs[each_v] > m:
+            m = vbgs[each_v]
+            max_v = each_v
+        if vbns[each_v] > m:
+            m = vbns[each_v]
+            max_v = each_v
+        if vbps[each_v] > m:
+            m = vbps[each_v]
+            max_v = each_v
+        if vbzs[each_v] > m:
+            m = vbzs[each_v]
+            max_v = each_v
+    return stem(max_v)
+
+
 def main():
     import sys, glob
 
@@ -62,13 +89,16 @@ def main():
 
     row_num_pat = re.compile('_(\d+)\.')
 
-    rows = [[]] *853
+    rows = [[]] * 853
     rows[0].extend(['', ''])
     for f in files:
         l_name = f[f.rfind('/'):]
         row_num = int(row_num_pat.search(l_name).groups()[0])
-        print '{}/{}'.format(row_num,len(rows))
-        rows[row_num].extend(list(sbar_presence[f]))
+        if len(sbar_presence[f][1]) > 0:
+            best = find_best_and_stem(sbar_presence[f][1])
+        else:
+            best = ''
+        rows[row_num].extend([sbar_presence[f][0], best])
 
     print rows
 
