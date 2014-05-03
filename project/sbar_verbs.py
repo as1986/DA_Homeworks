@@ -31,44 +31,35 @@ def extract_verb(s):
     patterns = [pat, patd, patg, patn, patp, patz]
     counters = [vbs, vbds, vbgs, vbns, vbps, vbzs]
 
-    found = False
     verbs = []
 
     for ind, _ in enumerate(patterns):
         search = patterns[ind].search(s)
         if search is not None:
-            found = True
             counters[ind].update(search.groups())
             verbs.extend(search.groups())
 
-    return (found, verbs)
+    return verbs
 
 
-def find_best_and_stem(l):
+def find_best_and_stem(l, threshold=0):
     from stemming.porter2 import stem
 
-    m = 0
-    max_v = None
+    to_return = set()
     for each_v in l:
-        if vbs[each_v] > m:
-            m = vbs[each_v]
-            max_v = each_v
-        if vbds[each_v] > m:
-            m = vbds[each_v]
-            max_v = each_v
-        if vbgs[each_v] > m:
-            m = vbgs[each_v]
-            max_v = each_v
-        if vbns[each_v] > m:
-            m = vbns[each_v]
-            max_v = each_v
-        if vbps[each_v] > m:
-            m = vbps[each_v]
-            max_v = each_v
-        if vbzs[each_v] > m:
-            m = vbzs[each_v]
-            max_v = each_v
-    return stem(max_v)
+        if vbs[each_v] > threshold:
+            to_return.add(stem(each_v))
+        if vbds[each_v] > threshold:
+            to_return.add(stem(each_v))
+        if vbgs[each_v] > threshold:
+            to_return.add(stem(each_v))
+        if vbns[each_v] > threshold:
+            to_return.add(stem(each_v))
+        if vbps[each_v] > threshold:
+            to_return.add(stem(each_v))
+        if vbzs[each_v] > threshold:
+            to_return.add(stem(each_v))
+    return to_return
 
 
 def main():
@@ -79,7 +70,10 @@ def main():
     for f in files:
         for each_line in open(f):
             p = extract_verb(each_line)
-            sbar_presence[f] = p
+            if f not in sbar_presence:
+                sbar_presence[f] = p
+            else:
+                sbar_presence[f].extend(p)
     print 'VB: {}'.format(vbs)
     print 'VBD: {}'.format(vbds)
     print 'VBG: {}'.format(vbgs)
@@ -90,15 +84,13 @@ def main():
     row_num_pat = re.compile('_(\d+)\.')
 
     rows = [[]] * 853
-    rows[0].extend(['', ''])
     for f in files:
         l_name = f[f.rfind('/'):]
         row_num = int(row_num_pat.search(l_name).groups()[0])
-        if len(sbar_presence[f][1]) > 0:
-            best = find_best_and_stem(sbar_presence[f][1])
+        if f in sbar_presence:
+            rows[row_num].extend(['True'] + list(find_best_and_stem(sbar_presence[f])))
         else:
-            best = ''
-        rows[row_num].extend([sbar_presence[f][0], best])
+            rows[row_num].extend(['False'])
 
     for r in rows:
         print r
