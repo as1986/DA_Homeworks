@@ -89,9 +89,9 @@ def main():
         row_num = int(row_num_pat.search(l_name).groups()[0])
         print row_num
         if f in sbar_presence:
-            rows[row_num].extend(['True'] + list(find_best_and_stem(sbar_presence[f])))
+            rows[row_num] = ['True'] + list(find_best_and_stem(sbar_presence[f]))
         else:
-            rows[row_num].extend(['False'])
+            rows[row_num] = ['False']
 
     for r in rows:
         print r
