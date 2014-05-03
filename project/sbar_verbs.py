@@ -100,7 +100,8 @@ def main():
             best = ''
         rows[row_num].extend([sbar_presence[f][0], best])
 
-    print rows
+    for r in rows:
+        print r
 
     return
 
