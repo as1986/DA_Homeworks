@@ -30,19 +30,29 @@ def extract_verb(s):
 
     patterns = [pat, patd, patg, patn, patp, patz]
     counters = [vbs, vbds, vbgs, vbns, vbps, vbzs]
+
+    found = False
+    verbs = []
+
     for ind, _ in enumerate(patterns):
         search = patterns[ind].search(s)
         if search is not None:
+            found = True
             counters[ind].update(search.groups())
+            verbs.extend(search.groups())
+
+    return (found, verbs)
 
 
 def main():
     import sys, glob
 
     files = glob.glob(sys.argv[1])
+    sbar_presence = {}
     for f in files:
         for each_line in open(f):
-            extract_verb(each_line)
+            p = extract_verb(each_line)
+            sbar_presence[f] = p
     print 'VB: {}'.format(vbs)
     print 'VBD: {}'.format(vbds)
     print 'VBG: {}'.format(vbgs)
@@ -52,10 +62,14 @@ def main():
 
     row_num_pat = re.compile('_(\d+)\.')
 
+    rows = [[]] * len(files) + 1
+    rows[0].extend(['', ''])
     for f in files:
         l_name = f[f.rfind('/'):]
         row_num = int(row_num_pat.search(l_name).groups()[0])
-        print row_num
+        rows[row_num].extend(list(sbar_presence[f]))
+
+    print rows
 
     return
 
