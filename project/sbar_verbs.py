@@ -62,7 +62,7 @@ def main():
 
     row_num_pat = re.compile('_(\d+)\.')
 
-    rows = [[]] * len(files) + 1
+    rows = [[]] * (len(files) + 1)
     rows[0].extend(['', ''])
     for f in files:
         l_name = f[f.rfind('/'):]
