@@ -48,10 +48,36 @@ def find_best_and_stem(l, threshold=0):
     return to_return
 
 
+def combine_rows(read_rows, new_rows):
+    return map(list.__add__, read_rows, new_rows)
+
+
+def read_from_csv(fname):
+    import csv
+
+    rows = []
+    with open(fname, 'rU') as fh:
+        reader = csv.reader(fh, delimiter=',')
+        for r in reader:
+            rows.append(r)
+    return rows
+
+
+def write_csv(fname, rows):
+    import csv
+
+    new_fname = fname[:fname.rfind('.csv')] + ',appended.csv'
+    with open(new_fname, 'w') as w_fh:
+        writer = csv.writer(w_fh)
+        for r in rows:
+            writer.writerow(r)
+
+
 def main():
     import sys, glob
 
     files = glob.glob(sys.argv[1])
+
     sbar_presence = {}
     for f in files:
         for each_line in open(f):
@@ -65,6 +91,7 @@ def main():
     row_num_pat = re.compile('_(\d+)\.')
 
     rows = [[]] * 853
+    rows[0] = ['has_sbar', 'verb']
     for f in files:
         l_name = f[f.rfind('/'):]
         row_num = int(row_num_pat.search(l_name).groups()[0])
@@ -74,14 +101,17 @@ def main():
                 print 'row {} already exists: {}'.format(row_num, rows[row_num])
             bests = list(find_best_and_stem(sbar_presence[f]))
             if len(bests) > 0:
-                rows[row_num] = ['True', (max(bests, key=lambda x: x[1]))[0] ]
+                rows[row_num] = ['True', (max(bests, key=lambda x: x[1]))[0]]
             else:
                 rows[row_num] = ['False', 'NONE']
         else:
             rows[row_num] = ['False', 'NONE']
 
-    for r in rows:
-        print r
+    csv_to_append = sys.argv[2]
+    read_rows = read_from_csv(csv_to_append)
+
+    appended = combine_rows(read_rows, rows)
+    write_csv(csv_to_append, appended)
 
     return
 
