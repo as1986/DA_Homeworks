@@ -101,7 +101,8 @@ def main():
                 print 'row {} already exists: {}'.format(row_num, rows[row_num])
             bests = list(find_best_and_stem(sbar_presence[f]))
             if len(bests) > 0:
-                rows[row_num] = ['True', (max(bests, key=lambda x: x[1]))[0]]
+                # rows[row_num] = ['True', (max(bests, key=lambda x: x[1]))[0]]
+                rows[row_num] = ['True', ' '.join([x[0] for x in bests])]
             else:
                 rows[row_num] = ['False', 'NONE']
         else:
