@@ -49,17 +49,17 @@ def find_best_and_stem(l, threshold=0):
     to_return = set()
     for each_v in l:
         if vbs[each_v] > threshold:
-            to_return.add(lm.lemmatize(each_v, 'v'))
+            to_return.add((lm.lemmatize(each_v, 'v'), vbs[each_v]))
         if vbds[each_v] > threshold:
-            to_return.add(lm.lemmatize(each_v, 'v'))
+            to_return.add((lm.lemmatize(each_v, 'v'), vbds[each_v]))
         if vbgs[each_v] > threshold:
-            to_return.add(lm.lemmatize(each_v, 'v'))
+            to_return.add((lm.lemmatize(each_v, 'v'), vbgs[each_v]))
         if vbns[each_v] > threshold:
-            to_return.add(lm.lemmatize(each_v, 'v'))
+            to_return.add((lm.lemmatize(each_v, 'v'), vbns[each_v]))
         if vbps[each_v] > threshold:
-            to_return.add(lm.lemmatize(each_v, 'v'))
+            to_return.add((lm.lemmatize(each_v, 'v'), vbps[each_v]))
         if vbzs[each_v] > threshold:
-            to_return.add(lm.lemmatize(each_v, 'v'))
+            to_return.add((lm.lemmatize(each_v, 'v'), vbzs[each_v]))
     return to_return
 
 
