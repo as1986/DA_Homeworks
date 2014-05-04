@@ -16,50 +16,35 @@ patz = compile_pat('VBZ')
 
 from collections import Counter
 
-vbs = Counter()
-vbds = Counter()
-vbgs = Counter()
-vbns = Counter()
-vbps = Counter()
-vbzs = Counter()
+verb_counter = Counter()
+
+from nltk.stem.wordnet import WordNetLemmatizer
+
+lm = WordNetLemmatizer()
 
 
 def extract_verb(s):
     global pat, patd, patg, patn, patp, patz
-    global vbs, vbds, vbgs, vbns, vbps, vbzs
+    global verb_counter
 
     patterns = [pat, patd, patg, patn, patp, patz]
-    counters = [vbs, vbds, vbgs, vbns, vbps, vbzs]
 
     verbs = []
 
     for ind, _ in enumerate(patterns):
         search = patterns[ind].search(s)
         if search is not None:
-            counters[ind].update(search.groups())
+            verb_counter.update(lm.lemmatize(search.groups(), 'v'))
             verbs.extend(search.groups())
 
     return verbs
 
 
 def find_best_and_stem(l, threshold=0):
-    from nltk.stem.wordnet import WordNetLemmatizer
-
-    lm = WordNetLemmatizer()
     to_return = set()
     for each_v in l:
-        if vbs[each_v] > threshold:
-            to_return.add((lm.lemmatize(each_v, 'v'), vbs[each_v]))
-        if vbds[each_v] > threshold:
-            to_return.add((lm.lemmatize(each_v, 'v'), vbds[each_v]))
-        if vbgs[each_v] > threshold:
-            to_return.add((lm.lemmatize(each_v, 'v'), vbgs[each_v]))
-        if vbns[each_v] > threshold:
-            to_return.add((lm.lemmatize(each_v, 'v'), vbns[each_v]))
-        if vbps[each_v] > threshold:
-            to_return.add((lm.lemmatize(each_v, 'v'), vbps[each_v]))
-        if vbzs[each_v] > threshold:
-            to_return.add((lm.lemmatize(each_v, 'v'), vbzs[each_v]))
+        if verb_counter[each_v] > threshold:
+            to_return.append((each_v, verb_counter[each_v]))
     return to_return
 
 
@@ -75,12 +60,7 @@ def main():
                 sbar_presence[f] = p
             else:
                 sbar_presence[f].extend(p)
-    print 'VB: {}'.format(vbs)
-    print 'VBD: {}'.format(vbds)
-    print 'VBG: {}'.format(vbgs)
-    print 'VBN: {}'.format(vbns)
-    print 'VBP: {}'.format(vbps)
-    print 'VBZ: {}'.format(vbzs)
+    print 'Verbs: {}'.format(verb_counter)
 
     row_num_pat = re.compile('_(\d+)\.')
 
