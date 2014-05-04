@@ -34,7 +34,7 @@ def extract_verb(s):
     for ind, _ in enumerate(patterns):
         search = patterns[ind].search(s)
         if search is not None:
-            verb_counter.update(lm.lemmatize(search.groups(), 'v'))
+            verb_counter.update([lm.lemmatize(x, 'v') for x in search.groups()])
             verbs.extend(search.groups())
 
     return verbs
@@ -44,7 +44,7 @@ def find_best_and_stem(l, threshold=0):
     to_return = set()
     for each_v in l:
         if verb_counter[each_v] > threshold:
-            to_return.append((each_v, verb_counter[each_v]))
+            to_return.add((each_v, verb_counter[each_v]))
     return to_return
 
 
