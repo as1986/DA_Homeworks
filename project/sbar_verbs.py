@@ -43,22 +43,23 @@ def extract_verb(s):
 
 
 def find_best_and_stem(l, threshold=0):
-    from stemming.porter2 import stem
+    from nltk.stem.wordnet import WordNetLemmatizer
 
+    lm = WordNetLemmatizer()
     to_return = set()
     for each_v in l:
         if vbs[each_v] > threshold:
-            to_return.add(stem(each_v))
+            to_return.add(lm.lemmatize(each_v, 'v'))
         if vbds[each_v] > threshold:
-            to_return.add(stem(each_v))
+            to_return.add(lm.lemmatize(each_v, 'v'))
         if vbgs[each_v] > threshold:
-            to_return.add(stem(each_v))
+            to_return.add(lm.lemmatize(each_v, 'v'))
         if vbns[each_v] > threshold:
-            to_return.add(stem(each_v))
+            to_return.add(lm.lemmatize(each_v, 'v'))
         if vbps[each_v] > threshold:
-            to_return.add(stem(each_v))
+            to_return.add(lm.lemmatize(each_v, 'v'))
         if vbzs[each_v] > threshold:
-            to_return.add(stem(each_v))
+            to_return.add(lm.lemmatize(each_v, 'v'))
     return to_return
 
 
@@ -90,7 +91,7 @@ def main():
         print row_num
         if f in sbar_presence:
             if len(rows[row_num]) > 0:
-               print 'row {} already exists: {}'.format(row_num, rows[row_num])
+                print 'row {} already exists: {}'.format(row_num, rows[row_num])
             bests = list(find_best_and_stem(sbar_presence[f]))
             if len(bests) > 0:
                 rows[row_num] = ['True'] + bests
