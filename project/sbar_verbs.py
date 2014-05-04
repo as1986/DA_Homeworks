@@ -66,7 +66,7 @@ def read_from_csv(fname):
 def write_csv(fname, rows):
     import csv
 
-    new_fname = fname[:fname.rfind('.csv')] + ',appended.csv'
+    new_fname = fname[:fname.rfind('.csv')] + '.appended.csv'
     with open(new_fname, 'w') as w_fh:
         writer = csv.writer(w_fh)
         for r in rows:
