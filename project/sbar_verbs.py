@@ -34,7 +34,8 @@ def extract_verb(s):
     for ind, _ in enumerate(patterns):
         search = patterns[ind].search(s)
         if search is not None:
-            verb_counter.update([lm.lemmatize(x, 'v').lower() for x in search.groups()])
+            to_update = [lm.lemmatize(x.lower(), 'v').lower() for x in search.groups()]
+            verb_counter.update(to_update)
             verbs.extend(search.groups())
 
     return verbs
