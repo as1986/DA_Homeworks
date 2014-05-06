@@ -66,7 +66,7 @@ def read_from_csv(fname):
 def fill_missing_rows(rows):
     example = len(rows[0])
     for r in rows:
-        if len(r) == len(example)-2:
+        if len(r) == example -2:
             r.extend(['False','NONE'])
 
 
