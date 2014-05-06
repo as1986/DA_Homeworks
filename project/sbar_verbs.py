@@ -34,7 +34,7 @@ def extract_verb(s):
     for ind, _ in enumerate(patterns):
         search = patterns[ind].search(s)
         if search is not None:
-            verb_counter.update([lm.lemmatize(x, 'v') for x in search.groups()])
+            verb_counter.update([lm.lemmatize(x.lower(), 'v') for x in search.groups()])
             verbs.extend(search.groups())
 
     return verbs
@@ -98,6 +98,8 @@ def main():
     for f in files:
         l_name = f[f.rfind('/'):]
         row_num = int(row_num_pat.search(l_name).groups()[0]) - 1
+        if row_num == 0:
+            continue
         print row_num
         if f in sbar_presence:
             if len(rows[row_num]) > 0:
