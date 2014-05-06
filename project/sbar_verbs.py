@@ -90,11 +90,14 @@ def main():
 
     row_num_pat = re.compile('_(\d+)\.')
 
-    rows = [[]] * 853
+    csv_to_append = sys.argv[2]
+    read_rows = read_from_csv(csv_to_append)
+    
+    rows = [[]] * len(read_rows)
     rows[0] = ['has_sbar', 'verb']
     for f in files:
         l_name = f[f.rfind('/'):]
-        row_num = int(row_num_pat.search(l_name).groups()[0])
+        row_num = int(row_num_pat.search(l_name).groups()[0]) - 1
         print row_num
         if f in sbar_presence:
             if len(rows[row_num]) > 0:
@@ -108,8 +111,6 @@ def main():
         else:
             rows[row_num] = ['False', 'NONE']
 
-    csv_to_append = sys.argv[2]
-    read_rows = read_from_csv(csv_to_append)
 
     appended = combine_rows(read_rows, rows)
     write_csv(csv_to_append, appended)
