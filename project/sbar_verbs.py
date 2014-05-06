@@ -34,7 +34,7 @@ def extract_verb(s):
     for ind, _ in enumerate(patterns):
         search = patterns[ind].search(s)
         if search is not None:
-            verb_counter.update([lm.lemmatize(x.lower(), 'v') for x in search.groups()])
+            verb_counter.update([lm.lemmatize(x, 'v').lower() for x in search.groups()])
             verbs.extend(search.groups())
 
     return verbs
@@ -61,6 +61,13 @@ def read_from_csv(fname):
         for r in reader:
             rows.append(r)
     return rows
+
+
+def fill_missing_rows(rows):
+    example = len(rows[0])
+    for r in rows:
+        if len(r) == len(example)-2:
+            r.extend(['False','NONE'])
 
 
 def write_csv(fname, rows):
@@ -115,6 +122,7 @@ def main():
 
 
     appended = combine_rows(read_rows, rows)
+    fill_missing_rows(appended)
     write_csv(csv_to_append, appended)
 
     return
