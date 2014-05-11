@@ -23,12 +23,12 @@ def main():
     sbar_idx = get_idx(rows[0],'has_sbar')
     verb_idx = get_idx(rows[0],'verb')
 
-    from collections import defaultdict
+    from collections import defaultdict, Counter
 
     same_author = defaultdict(list)
     same_author_drop = defaultdict(str)
     same_author_sbar = defaultdict(str)
-    same_author_verb = defaultdict(set)
+    same_author_verb = defaultdict(Counter)
 
 
     for row in rows[1:]:
@@ -44,7 +44,7 @@ def main():
         writer = csv.writer(w_fh)
         writer.writerow(['post_author','post_text','Drop','has_sbar','verb'])
         for author in same_author:
-            row_to_write = [author, ' '.join(same_author[author]), same_author_drop[author], same_author_sbar[author], ' '.join(list(same_author_verb[author]))]
+            row_to_write = [author, ' '.join(same_author[author]), same_author_drop[author], same_author_sbar[author], ' '.join(list(same_author_verb[author].elements()))]
             writer.writerow(row_to_write)
 
     return
