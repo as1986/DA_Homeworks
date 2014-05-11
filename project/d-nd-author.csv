@@ -1,3 +1,4 @@
+post_author,post_text,Drop
 SzuYing Cheng,"In last weeks' ""Defining Functions"" video,Ms. Campbell opened a new window and defined the triangle area function in it, which appeared right next to the current window where she restarted a new shell.I made the exact same directive and somehow the new window opened up as an independent window, separate from the one that I was working on at the moment.Anybody experimenting this problem too?•_How can I solve it?I'm on Windows XP 2003 SP3(32 bits) and the versions of Python I downloaded was v3.3.2",1
 venkata vijaya bhaskar k,The problem summary:Steps to reproduce:while playing video lectures. suddenly videos getting hanged and video time shows completed.Screenshot:,1
 Kim Bergeron,Hi All!I'm interested in joining the group. It'll be a good way to keep myself in check to be on schedule. I've filled the form and look forward to getting updates on group meetings.,1

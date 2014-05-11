@@ -35,6 +35,7 @@ def main():
     to_write = sys.argv[2]
     with open(to_write, 'w') as w_fh:
         writer = csv.writer(w_fh)
+        writer.writerow(['post_author','post_text','Drop'])
         for author in same_author:
             row_to_write = [author, ' '.join(same_author[author]), same_author_drop[author]]
             writer.writerow(row_to_write)
