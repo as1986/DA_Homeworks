@@ -124,7 +124,7 @@ def main():
 
     appended = combine_rows(read_rows, rows)
     fill_missing_rows(appended)
-    write_csv(csv_to_append, appended)
+    # write_csv(csv_to_append, appended)
 
     return
 
